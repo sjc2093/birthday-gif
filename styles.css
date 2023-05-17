@@ -1,8 +1,20 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    font-family: 'Chicle', cursive;
+    background: linear-gradient(#006e90, #f18f01);
     color: #ffffff;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 h1, h2, h3, h4, p {
@@ -10,14 +22,17 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #f18f01;
     margin-bottom: 10px;
+    background-size: stretch;
+    
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #f18f01;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +40,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #f18f01;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -60,6 +75,7 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
+    background-size: 100% 100%;
 }
 
 #gift-img-happy:hover {
@@ -72,6 +88,7 @@ h1, h2, h3, h4, p {
 
 #gift-img-genius:hover {
     background-image: url("images/genius.gif");
+    
 }
 
 #gift-img-badass:hover {
